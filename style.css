@@ -1,5 +1,27 @@
-#wordList {
-    display: inline-block;
-    max-width: 100%;
-    height: auto; 
+.main {
+    display: flex;
+    justify-content: center;
+ }
+
+ .child-1 {
+     min-height: 100px;
+     width: 200px;
+     margin: 10px;
+     border: 3px solid #ffbf66;
+     background-color: #b3deff;
+ }
+
+ .child-2 {
+     min-height: 100px;
+     width: 200px;
+     margin: 10px;
+     border: 3px solid #ffbf66;
+     background-color: #b3deff;
+     align-self: flex-start;
+ }
+
+ .form {
+     display:flex;
+     align-items: center;
+     flex-flow: column wrap;
  }
