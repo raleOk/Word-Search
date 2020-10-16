@@ -93,5 +93,4 @@ wordButton.addEventListener('click' , function() {
             alert('Select one of two options');
         }
     } }
-   
-});     
+});   
