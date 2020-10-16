@@ -9,15 +9,44 @@
 </head>
 <body>
     
-    <div>
-        <input type="text" placeholder="Enter a word" id="wordInput" />
-        <button id=wordButton>Show synonyms</button>
+    <div class='form'>
+        <div class='form-child-1'>
+            <input type="text" placeholder="Enter a word" id="wordInput" />
+            <button id=wordButton>Show synonyms/definition</button>
+        </div>   
+    
+        <div>
+        <form class='form-child-2'>
+            <div>
+                <input type="checkbox" id="synonBox">
+                <label for="synonBox">Synonyms</label>
+            </div>
+            <div>
+                <input type="checkbox" id="defBox">
+                <label for="defBox">Definition</label>
+            </div>
+        </form>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class='child-1'>
+            <div>
+                <p>Synonyms:</p>
+                <ul id="synonymText">
+                </ul>
+            </div>
+        </div>
+        
+        <div class='child-2'>
+            <div>
+                <p>Definition:</p>
+                <div id="definitionText"> 
+                </div>
+            </div>
+        </div>
     </div>  
 
-    <ul id="wordList">
-        
-    </ul>
-    
     <script src="app.js"></script>
-</body> 
-</html> 
+</body>
+</html>

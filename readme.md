@@ -1,2 +1,2 @@
 # app-test
-made the repo
+Synonym and definition app using WordsAPI in vanilla JS
